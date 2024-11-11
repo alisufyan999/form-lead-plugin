@@ -1,0 +1,111 @@
+.formdatatablediv > h1{
+    font-size: 2.5rem;
+    font-weight: 700;
+}
+.formdatatablediv > p{
+    font-size: 1.2rem;
+    font-weight: 500;
+    margin-bottom: 25px;
+}
+.formdatatablediv > p > strong{
+    color: #3c7cff;
+}
+.formdatatablediv table{
+    width: max-content;
+    overflow-x: scroll;
+}
+.formdatatablediv table thead th{
+    font-size: 14px;
+    font-weight: 700;
+    width: auto;
+}
+.formdatatablediv table tbody tr{
+    font-size: 14px;
+    font-weight: 500;
+    color: #000;
+}
+.formdatatablediv table tbody tr td{
+    width: auto;
+    max-width: 200px;
+}
+.formdatatablediv .sub{
+    margin-bottom: 35px;
+    display: flex;
+    gap: 0 15px;
+}
+
+/*.formdatatablediv .sub li{
+    position: relative;
+}
+
+.formdatatablediv .sub li::before{
+    content: '|';
+    position: absolute;
+    top: 0;
+    left: -12px;
+    font-size: 22px;
+    color: #000;
+}
+.formdatatablediv .sub li:nth-child(1)::before{
+    display: none;
+}*/
+
+.formdatatablediv .sub li > a{
+    font-size: 16px;
+    text-decoration: none;
+    color: #000;
+    font-weight: 700;
+    border: 2px solid #000;
+    padding: 8px 6px;
+    border-radius: 6px;
+}
+.formdatatablediv .sub li > a.current{
+    color: #fff;
+    border: 2px solid #3c7cff;
+    background-color: #3c7cff;
+}
+.formdatatablediv .sub li > a:focus{
+    box-shadow: none;
+    outline: 0;
+}
+.tablediv{
+    overflow-x: auto;
+    width: auto;
+}
+.tablediv > form{
+    margin-bottom: 20px;
+}
+.formdatatablediv .sub li{
+    margin-bottom: 0;
+}
+.page-numbers{
+    padding: 5px 10px;
+    font-size: 16px;
+    color: #2271b1;
+    border: 1px solid #2271b1;
+    background: #f6f7f7;
+    border-radius: 3px;
+    text-decoration: none;
+}
+.tablenav .tablenav-pages{
+    float: left;
+}
+
+
+
+
+
+
+.wp-list-table{
+    margin-top: 20px;
+}
+.wp-list-table thead tr > th:nth-child(1){
+    width: 1%;
+}
+.wp-list-table tbody tr td:nth-child(1){
+    width: 1%;
+}
+.wp-list-table thead tr > th:nth-child(1) input{
+    margin: 0;
+}
+
